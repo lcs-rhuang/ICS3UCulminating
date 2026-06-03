@@ -13,6 +13,10 @@
 		7D5CB0702FCE074300F415A5 /* HouseListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5CB06F2FCE074300F415A5 /* HouseListViewModel.swift */; };
 		7D5CB0732FCE074300F415A5 /* HousesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5CB0722FCE074300F415A5 /* HousesListView.swift */; };
 		7D5CB0752FCE074300F415A5 /* HouseItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5CB0742FCE074300F415A5 /* HouseItemView.swift */; };
+		7D5CB0812FCE074300F415A5 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5CB0802FCE074300F415A5 /* Card.swift */; };
+		7D5CB0832FCE074300F415A5 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5CB0822FCE074300F415A5 /* Deck.swift */; };
+		7D5CB0852FCE074300F415A5 /* WarGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5CB0842FCE074300F415A5 /* WarGame.swift */; };
+		7D5CB0872FCE074300F415A5 /* CardGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5CB0862FCE074300F415A5 /* CardGameView.swift */; };
 		7D5CB0772FCE074300F415A5 /* RELEASE.md in Resources */ = {isa = PBXBuildFile; fileRef = 7D5CB0762FCE074300F415A5 /* RELEASE.md */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +28,10 @@
 		7D5CB06F2FCE074300F415A5 /* HouseListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseListViewModel.swift; sourceTree = "<group>"; };
 		7D5CB0722FCE074300F415A5 /* HousesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HousesListView.swift; sourceTree = "<group>"; };
 		7D5CB0742FCE074300F415A5 /* HouseItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseItemView.swift; sourceTree = "<group>"; };
+		7D5CB0802FCE074300F415A5 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		7D5CB0822FCE074300F415A5 /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
+		7D5CB0842FCE074300F415A5 /* WarGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarGame.swift; sourceTree = "<group>"; };
+		7D5CB0862FCE074300F415A5 /* CardGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardGameView.swift; sourceTree = "<group>"; };
 		7D5CB0762FCE074300F415A5 /* RELEASE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = RELEASE.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -68,12 +76,15 @@
 			sourceTree = "<group>";
 		};
 		7D5CB06B2FCE074300F415A5 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				7D5CB06C2FCE074300F415A5 /* House.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
+		        isa = PBXGroup;
+		        children = (
+		                7D5CB06C2FCE074300F415A5 /* House.swift */,
+		                7D5CB0802FCE074300F415A5 /* Card.swift */,
+		                7D5CB0822FCE074300F415A5 /* Deck.swift */,
+		                7D5CB0842FCE074300F415A5 /* WarGame.swift */,
+		        );
+		        path = Model;
+		        sourceTree = "<group>";
 		};
 		7D5CB06E2FCE074300F415A5 /* ViewModels */ = {
 			isa = PBXGroup;
