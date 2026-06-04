@@ -32,6 +32,7 @@
 		7D5CB0822FCE074300F415A5 /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
 		7D5CB0842FCE074300F415A5 /* WarGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarGame.swift; sourceTree = "<group>"; };
 		7D5CB0862FCE074300F415A5 /* CardGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardGameView.swift; sourceTree = "<group>"; };
+		7D5CB0882FCE074300F415A5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		7D5CB0762FCE074300F415A5 /* RELEASE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = RELEASE.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -63,17 +64,18 @@
 			sourceTree = "<group>";
 		};
 		7D5CB0662FCE074300F415A5 /* ICS3UCulminating */ = {
-			isa = PBXGroup;
-			children = (
-				7D5CB0672FCE074300F415A5 /* ICS3UCulminatingApp.swift */,
-				7D5CB0692FCE074300F415A5 /* Assets.xcassets */,
-				7D5CB0762FCE074300F415A5 /* RELEASE.md */,
-				7D5CB06B2FCE074300F415A5 /* Model */,
-				7D5CB06E2FCE074300F415A5 /* ViewModels */,
-				7D5CB0712FCE074300F415A5 /* Views */,
-			);
-			path = ICS3UCulminating;
-			sourceTree = "<group>";
+		        isa = PBXGroup;
+		        children = (
+		                7D5CB0672FCE074300F415A5 /* ICS3UCulminatingApp.swift */,
+		                7D5CB0692FCE074300F415A5 /* Assets.xcassets */,
+		                7D5CB0882FCE074300F415A5 /* README.md */,
+		                7D5CB0762FCE074300F415A5 /* RELEASE.md */,
+		                7D5CB06B2FCE074300F415A5 /* Model */,
+		                7D5CB06E2FCE074300F415A5 /* ViewModels */,
+		                7D5CB0712FCE074300F415A5 /* Views */,
+		        );
+		        path = ICS3UCulminating;
+		        sourceTree = "<group>";
 		};
 		7D5CB06B2FCE074300F415A5 /* Model */ = {
 		        isa = PBXGroup;
@@ -81,27 +83,28 @@
 		                7D5CB06C2FCE074300F415A5 /* House.swift */,
 		                7D5CB0802FCE074300F415A5 /* Card.swift */,
 		                7D5CB0822FCE074300F415A5 /* Deck.swift */,
-		                7D5CB0842FCE074300F415A5 /* WarGame.swift */,
 		        );
 		        path = Model;
 		        sourceTree = "<group>";
 		};
 		7D5CB06E2FCE074300F415A5 /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-				7D5CB06F2FCE074300F415A5 /* HouseListViewModel.swift */,
-			);
-			path = ViewModels;
-			sourceTree = "<group>";
+		        isa = PBXGroup;
+		        children = (
+		                7D5CB06F2FCE074300F415A5 /* HouseListViewModel.swift */,
+		                7D5CB0842FCE074300F415A5 /* WarGame.swift */,
+		        );
+		        path = ViewModels;
+		        sourceTree = "<group>";
 		};
 		7D5CB0712FCE074300F415A5 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				7D5CB0722FCE074300F415A5 /* HousesListView.swift */,
-				7D5CB0742FCE074300F415A5 /* HouseItemView.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
+		        isa = PBXGroup;
+		        children = (
+		                7D5CB0722FCE074300F415A5 /* HousesListView.swift */,
+		                7D5CB0742FCE074300F415A5 /* HouseItemView.swift */,
+		                7D5CB0862FCE074300F415A5 /* CardGameView.swift */,
+		        );
+		        path = Views;
+		        sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 

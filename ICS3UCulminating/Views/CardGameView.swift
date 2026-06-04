@@ -1,17 +1,25 @@
 import SwiftUI
 
+/// The main view for the Card Wars game, displaying the cards and controls.
 struct CardGameView: View {
     // MARK: - Stored properties
+    
+    /// The ViewModel instance that drives the game logic.
+    /// We use a local property as it doesn't need to be shared globally yet.
     var game = WarGame()
     
     // MARK: - Body
+    
     var body: some View {
         VStack(spacing: 20) {
+            // Header title
             Text("Card Wars")
                 .font(.largeTitle)
                 .fontWeight(.bold)
             
+            // Display for both players
             HStack {
+                // Player 1 Side
                 VStack {
                     Text("Player 1")
                         .font(.headline)
@@ -21,6 +29,7 @@ struct CardGameView: View {
                 
                 Spacer()
                 
+                // Player 2 Side
                 VStack {
                     Text("Player 2")
                         .font(.headline)
@@ -30,12 +39,14 @@ struct CardGameView: View {
             }
             .padding()
             
+            // Status Message Area
             Text(game.message)
                 .font(.body)
                 .multilineTextAlignment(.center)
                 .padding()
                 .frame(height: 100)
             
+            // Control Button (Switches between Battle and New Game)
             if game.isGameOver {
                 Button(action: {
                     game.startNewGame()
@@ -66,16 +77,20 @@ struct CardGameView: View {
     }
 }
 
+/// A helper view to render a single card or a card back.
 struct CardView: View {
+    /// The card to display. If nil, shows the card back.
     let card: Card?
     
     var body: some View {
         ZStack {
+            // Card base
             RoundedRectangle(cornerRadius: 10)
                 .fill(Color.white)
                 .frame(width: 100, height: 150)
                 .shadow(radius: 5)
             
+            // Content (Rank and Suit) or Card Back
             if let card = card {
                 VStack {
                     Text(card.suit.rawValue)
@@ -85,7 +100,7 @@ struct CardView: View {
                         .fontWeight(.bold)
                 }
             } else {
-                // Card back
+                // Card back design
                 RoundedRectangle(cornerRadius: 10)
                     .fill(Color.blue.opacity(0.8))
                     .padding(5)
