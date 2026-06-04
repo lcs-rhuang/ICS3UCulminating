@@ -9,31 +9,23 @@
 /* Begin PBXBuildFile section */
 		7D5CB0682FCE074300F415A5 /* ICS3UCulminatingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5CB0672FCE074300F415A5 /* ICS3UCulminatingApp.swift */; };
 		7D5CB06A2FCE074300F415A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D5CB0692FCE074300F415A5 /* Assets.xcassets */; };
-		7D5CB06D2FCE074300F415A5 /* House.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5CB06C2FCE074300F415A5 /* House.swift */; };
-		7D5CB0702FCE074300F415A5 /* HouseListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5CB06F2FCE074300F415A5 /* HouseListViewModel.swift */; };
-		7D5CB0732FCE074300F415A5 /* HousesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5CB0722FCE074300F415A5 /* HousesListView.swift */; };
-		7D5CB0752FCE074300F415A5 /* HouseItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5CB0742FCE074300F415A5 /* HouseItemView.swift */; };
-		7D5CB0812FCE074300F415A5 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5CB0802FCE074300F415A5 /* Card.swift */; };
-		7D5CB0832FCE074300F415A5 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5CB0822FCE074300F415A5 /* Deck.swift */; };
-		7D5CB0852FCE074300F415A5 /* WarGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5CB0842FCE074300F415A5 /* WarGame.swift */; };
-		7D5CB0872FCE074300F415A5 /* CardGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5CB0862FCE074300F415A5 /* CardGameView.swift */; };
 		7D5CB0772FCE074300F415A5 /* RELEASE.md in Resources */ = {isa = PBXBuildFile; fileRef = 7D5CB0762FCE074300F415A5 /* RELEASE.md */; };
+		7D5CB07B2FD1D2CD00F415A5 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5CB0802FCE074300F415A5 /* Card.swift */; };
+		7D5CB07C2FD1D2CD00F415A5 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5CB0822FCE074300F415A5 /* Deck.swift */; };
+		7D5CB07D2FD1D2CD00F415A5 /* WarGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5CB0842FCE074300F415A5 /* WarGame.swift */; };
+		7D5CB07E2FD1D2CD00F415A5 /* CardGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5CB0862FCE074300F415A5 /* CardGameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7D5CB0642FCE074300F415A5 /* ICS3UCulminating.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ICS3UCulminating.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D5CB0672FCE074300F415A5 /* ICS3UCulminatingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICS3UCulminatingApp.swift; sourceTree = "<group>"; };
 		7D5CB0692FCE074300F415A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7D5CB06C2FCE074300F415A5 /* House.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = House.swift; sourceTree = "<group>"; };
-		7D5CB06F2FCE074300F415A5 /* HouseListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseListViewModel.swift; sourceTree = "<group>"; };
-		7D5CB0722FCE074300F415A5 /* HousesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HousesListView.swift; sourceTree = "<group>"; };
-		7D5CB0742FCE074300F415A5 /* HouseItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseItemView.swift; sourceTree = "<group>"; };
+		7D5CB0762FCE074300F415A5 /* RELEASE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = RELEASE.md; sourceTree = "<group>"; };
 		7D5CB0802FCE074300F415A5 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		7D5CB0822FCE074300F415A5 /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
 		7D5CB0842FCE074300F415A5 /* WarGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarGame.swift; sourceTree = "<group>"; };
 		7D5CB0862FCE074300F415A5 /* CardGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardGameView.swift; sourceTree = "<group>"; };
 		7D5CB0882FCE074300F415A5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		7D5CB0762FCE074300F415A5 /* RELEASE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = RELEASE.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,47 +56,43 @@
 			sourceTree = "<group>";
 		};
 		7D5CB0662FCE074300F415A5 /* ICS3UCulminating */ = {
-		        isa = PBXGroup;
-		        children = (
-		                7D5CB0672FCE074300F415A5 /* ICS3UCulminatingApp.swift */,
-		                7D5CB0692FCE074300F415A5 /* Assets.xcassets */,
-		                7D5CB0882FCE074300F415A5 /* README.md */,
-		                7D5CB0762FCE074300F415A5 /* RELEASE.md */,
-		                7D5CB06B2FCE074300F415A5 /* Model */,
-		                7D5CB06E2FCE074300F415A5 /* ViewModels */,
-		                7D5CB0712FCE074300F415A5 /* Views */,
-		        );
-		        path = ICS3UCulminating;
-		        sourceTree = "<group>";
+			isa = PBXGroup;
+			children = (
+				7D5CB0672FCE074300F415A5 /* ICS3UCulminatingApp.swift */,
+				7D5CB0692FCE074300F415A5 /* Assets.xcassets */,
+				7D5CB0882FCE074300F415A5 /* README.md */,
+				7D5CB0762FCE074300F415A5 /* RELEASE.md */,
+				7D5CB06B2FCE074300F415A5 /* Model */,
+				7D5CB06E2FCE074300F415A5 /* ViewModels */,
+				7D5CB0712FCE074300F415A5 /* Views */,
+			);
+			path = ICS3UCulminating;
+			sourceTree = "<group>";
 		};
 		7D5CB06B2FCE074300F415A5 /* Model */ = {
-		        isa = PBXGroup;
-		        children = (
-		                7D5CB06C2FCE074300F415A5 /* House.swift */,
-		                7D5CB0802FCE074300F415A5 /* Card.swift */,
-		                7D5CB0822FCE074300F415A5 /* Deck.swift */,
-		        );
-		        path = Model;
-		        sourceTree = "<group>";
+			isa = PBXGroup;
+			children = (
+				7D5CB0802FCE074300F415A5 /* Card.swift */,
+				7D5CB0822FCE074300F415A5 /* Deck.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
 		};
 		7D5CB06E2FCE074300F415A5 /* ViewModels */ = {
-		        isa = PBXGroup;
-		        children = (
-		                7D5CB06F2FCE074300F415A5 /* HouseListViewModel.swift */,
-		                7D5CB0842FCE074300F415A5 /* WarGame.swift */,
-		        );
-		        path = ViewModels;
-		        sourceTree = "<group>";
+			isa = PBXGroup;
+			children = (
+				7D5CB0842FCE074300F415A5 /* WarGame.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
 		};
 		7D5CB0712FCE074300F415A5 /* Views */ = {
-		        isa = PBXGroup;
-		        children = (
-		                7D5CB0722FCE074300F415A5 /* HousesListView.swift */,
-		                7D5CB0742FCE074300F415A5 /* HouseItemView.swift */,
-		                7D5CB0862FCE074300F415A5 /* CardGameView.swift */,
-		        );
-		        path = Views;
-		        sourceTree = "<group>";
+			isa = PBXGroup;
+			children = (
+				7D5CB0862FCE074300F415A5 /* CardGameView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -179,10 +167,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D5CB0752FCE074300F415A5 /* HouseItemView.swift in Sources */,
-				7D5CB06D2FCE074300F415A5 /* House.swift in Sources */,
-				7D5CB0732FCE074300F415A5 /* HousesListView.swift in Sources */,
-				7D5CB0702FCE074300F415A5 /* HouseListViewModel.swift in Sources */,
+				7D5CB07B2FD1D2CD00F415A5 /* Card.swift in Sources */,
+				7D5CB07C2FD1D2CD00F415A5 /* Deck.swift in Sources */,
+				7D5CB07D2FD1D2CD00F415A5 /* WarGame.swift in Sources */,
+				7D5CB07E2FD1D2CD00F415A5 /* CardGameView.swift in Sources */,
 				7D5CB0682FCE074300F415A5 /* ICS3UCulminatingApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
