@@ -104,10 +104,10 @@ class WarGame {
         // Compare ranks to determine the winner
         if p1Card.rank > p2Card.rank {
             message = "\(p1Card.description) beats \(p2Card.description)! Player 1 wins the round."
-            resolveRound(winnerCards: &player1Cards)
+            resolveRound(winner: 1)
         } else if p1Card.rank < p2Card.rank {
             message = "\(p2Card.description) beats \(p1Card.description)! Player 2 wins the round."
-            resolveRound(winnerCards: &player2Cards)
+            resolveRound(winner: 2)
         } else {
             // Ranks are equal: A Tie leads to a War!
             message = "WAR! It's a tie at \(p1Card.rank.displayName)!"
@@ -116,9 +116,15 @@ class WarGame {
     }
     
     /// Gives all cards currently on the table to the winner.
-    private func resolveRound(winnerCards: inout [Card]) {
-        for card in cardsInPlay {
-            winnerCards.append(card)
+    private func resolveRound(winner: Int) {
+        if winner == 1 {
+            for card in cardsInPlay {
+                player1Cards.append(card)
+            }
+        } else {
+            for card in cardsInPlay {
+                player2Cards.append(card)
+            }
         }
         // Clear the table for the next round
         cardsInPlay = []

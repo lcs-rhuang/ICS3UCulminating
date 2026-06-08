@@ -6,7 +6,7 @@ struct CardGameView: View {
     
     /// The ViewModel instance that drives the game logic.
     /// We use a local property as it doesn't need to be shared globally yet.
-    var game = WarGame()
+    @State var game = WarGame()
     
     // MARK: - Body
     
